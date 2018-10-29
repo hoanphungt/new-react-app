@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './App.css';
 import User from './components/User'
 import UserBoard from './components/UserBoard'
 
