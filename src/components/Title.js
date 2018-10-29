@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-class Title extends Component {
+export default class Title extends Component {
   render() {
-    return 'test'
+    return <h1>{ this.props.content }</h1>
   }
 }

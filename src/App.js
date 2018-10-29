@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Title from './components/Title'
+
+import User from './components/User'
+import UserBoard from './components/UserBoard'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">
-            Welcome to Codaisseur!
-          </h1>
-
         </header>
 
         <main>
-          <Title />
+          <UserBoard />
+          <User name="Hoan Phung" />
+          <User name="Vanya" />
+          <User name="Sanh" />
         </main>
       </div>
     );
